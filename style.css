@@ -1,0 +1,176 @@
+/*
+Theme Name: Chistes Colombianos
+Theme URI: http://chistescol.com
+Description: Chistes colombianos, humor y algo mas.
+Author: Rene Arteaga
+Author URI: http://chistescol.com
+Version: 1.0
+Text Domain: chistescol
+*/
+
+/* Custom css. */
+
+.img_menu{ width: 100%; }
+
+.icon_facebook span{
+    background-color: #4267b2;
+    color: #ffffff;
+}
+
+.image_post_home{
+    margin-top: -15px;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+article h1{
+    font-weight: 600;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+article header{
+    text-align: center;
+}
+
+article .body_article{
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+}
+
+article .body_article p{
+    font-size: 1.2em;
+}
+
+article .ads_google{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.comments{
+    margin-top: 15px !important;
+}
+
+.comment_items{
+    margin-bottom: 15px;
+}
+
+.comment_items .social-feed-box{
+    margin: 0 !important;
+    border-bottom: none !important;
+}
+
+.comment_items .social-feed-box:last-child{
+    margin: 0 !important;
+    border-bottom: 1px solid #e7eaec !important;
+}
+
+.comment_items .social-feed-box .more_comments{
+    cursor: pointer;
+}
+
+.comment_items .social-feed-box .more_comments:hover{
+    color: #337ab7;
+}
+
+/* end Custom css */
+
+/* Wordpress class styles */
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter, div.aligncenter {
+    display:block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float:left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float:left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin:0;
+    max-width: 98.5%;
+    padding:0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size:11px;
+    line-height:17px;
+    margin:0;
+    padding:0 4px 5px;
+}
+
+
+/* End Wordpress class styles */
+
+
+/* Responsive design */
+@media screen and (max-width: 800px) {
+    article .body_article .cuerpo_post img{
+        width: 100%;
+        height: auto;
+    }
+
+    article h1{
+        font-size: 1.7em;
+    }
+}
